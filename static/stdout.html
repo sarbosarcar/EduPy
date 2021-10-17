@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for '{{course}}' | EduPy</title>
+    <link rel='stylesheet' href="{{ url_for('static', filename='stdout.css') }}">
+    <link rel="icon" sizes="180x180" href="{{url_for('static', filename='/favicon.ico/')}}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <div class='bg'>
+        <br><br><br><br>
+            <div class='welcome'><p class='wc'>Thanks <mark><b>&nbsp;{{ name }}&nbsp;</b></mark> for using EduPy!<br>
+                Your search for <b>"{{ course }}"</b> yielded the following results:</p>
+                <div class="table">
+                    <table class='course'>
+                        <tr class='header'><th>Course</th><td>Institution</td></tr>
+                        {% for val in seq %}
+                            <tr>
+                                <th>{{ val[0] }}</th>
+                                <td>{{ val[1] }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
