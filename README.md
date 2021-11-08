@@ -2,7 +2,7 @@
 ### Overview
 > A Flask-based web application aimed at recommending courses. 
 > Hosted at https://edu-py.herokuapp.com/ using the cloud-based Heroku PaaS. 
-> Finds course data at the undergraduate level and recommends courses after answering of questions.
+> Finds course data at the undergraduate level and recommends courses after answering questions.
 
 ### Tools Used
 > Python micro web framework Flask 2.0.1 for server-side backend development, 
