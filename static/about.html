@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | EduPy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <link rel="icon" sizes="180x180" href="{{url_for('static', filename='/favicon.ico/')}}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <div class="bg">        
+        <div class='cont'><form action="/"><button class="details">Index</button></form></div>
+        <div class="container-blur">
+            <div class='text'>
+            EduPy:<br>The Journey
+            <br><br>
+            </div>
+        <div class="info-holder">
+            The EduPy Project started as a school assignment implementing data mining skills using Python based frameworks for the creation of an undergraduate course finding and recommending system.
+            <br>
+            The Project relies heavily on the websites <a href="https://study.eu/" class="study_eu">study.eu</a> and <a href="https://unsplash.com/" class="unsplash">unsplash.com</a> for mining the course data and adding the background images respectively.
+            The tools and frameworks implemented, have been listed here:<br>
+            <ul>
+                <li class="1">Python 3 (for back-end and server-side development)</li>
+                <li class="2">HTML 5 (for front-end development and user interface construction)</li>
+                <li class="3">CSS 3 (for styling static pages)</li>
+                <li class="4">Jinja 2 (Python based templating engine for markup)</li>
+            </ul>
+                <br>
+                <em>Also Check: <a href="/recommendation" class="link">EduPy Recommendation System</a></em>
+            
+        </div>
+    </div>
+    <div class="blur"></div>
+    </div>
+</body>
+</html>
