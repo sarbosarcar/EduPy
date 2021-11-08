@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduPy recommendation Engine</title>
+    <title>EduPy Recommendation Engine</title>
     <link rel='stylesheet' href="{{ url_for('static', filename='recommendation.css') }}">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -18,20 +18,6 @@
         <div class="container">
             <div class="head">Choose a major<br>that you'll love!</div><br><br>
             <form action="/recommend_results" class="choose" method='POST'>
-                <!--<label for="none" class="none">Would you probably study:</label><br>
-                <input type="radio" class = "study" name="study" id="physics" value="The Origin of the Universe">
-                <label for="physics">The Origin of the Universe</label><br>
-                <input type="radio" class = "study" name="study" id="maths" value="The Size of Infinities">
-                <label for="maths">The Size of Infinities</label><br>
-                <input type="radio" class = "study" name="study" id="psy" value="Complexities of the Human Mind">
-                <label for="psy">Complexities of the Human Mind</label><br>
-                <input type="radio" class = "study" name="study" id="comp" value="Creating a Video Game">
-                <label for="comp">Creating a Video Game</label><br>
-                <input type="radio" class = "study" name="study" id="bio" value="Why do we age?">
-                <label for="bio">Why do we age?</label><br>
-                <input type="radio" class = "study" name="study" id="study" value="Creating the strongest acids">
-                <label for="chem">Creating the strongest acids</label><br>-->
-
                 <p class="none">I would probably study...</p>
                 <select id="inputStudy" class="form-control" name="inputStudy" required>
                     <option value="noneopt" selected disabled>Choose a topic</option>
