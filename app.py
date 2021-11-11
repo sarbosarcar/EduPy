@@ -44,7 +44,6 @@ def recommendation():
 @app.route('/recommend_results', methods = ['POST', 'GET'])
 def recommend_results():
     sci = math = hist = geo = psy = eco = comp = 0
-    count = None
     subs = ['Science', 'Mathematics', 'Psychology', 'History', 'Geography', 'Economics', 'Computer Science']
     score = []
 
