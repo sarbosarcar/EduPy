@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+.bg {
+    background: url(bg_recommendation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.details {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 25px;
+    margin-left: 85vw;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.details:hover {
+    color:darkslateblue;
+    background: #fff;
+}
+
+.container {
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    width:50vw;
+    height: 100vh;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.head {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+p.none {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.choose {
+    color: #fff;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.form-control {
+    outline: none;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 5px;
+    color: #fff;
+}
+
+.form-control:hover, option {
+    background: #fff;
+    color: darkslateblue;
+}
+
+.btn-sub {
+    background: #fff;
+    color: darkslateblue;
+    outline: none;
+    border: 2px solid #fff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-sub:hover {
+    background: transparent;
+    color: #fff;
+}
+select, option {
+    width: 30vw;
+}
+
+.btn-sub {
+    padding: 1rem;
+}
