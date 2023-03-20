@@ -1,5 +1,7 @@
 # EduPy
 
+![](https://github.com/sarbosarcar/EduPy/blob/main/static/icon1.png)
+
 ### Overview
 - A Flask-based web application aimed at recommending courses. 
 - Hosted at https://edupy.onrender.com/ using the cloud-based Render PaaS. 
