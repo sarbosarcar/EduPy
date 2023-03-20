@@ -1,6 +1,6 @@
 # EduPy
 
-![](https://github.com/sarbosarcar/EduPy/blob/main/static/icon1.png)
+![](https://github.com/sarbosarcar/EduPy/blob/main/static/EduPy.png)
 
 ### Overview
 - A Flask-based web application aimed at recommending courses. 
