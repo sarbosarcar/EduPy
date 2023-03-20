@@ -16,18 +16,19 @@
         <div class='cont'><form action="/"><button class="details">Index</button></form></div>
         <div class="container-blur">
             <div class='text'>
-            Recommended Subject:<br>
-            {% if data %}
-            {{ search }}
+            Personality Type:<br>
+            {% if type %}
+            {{ type }}
             {% else %}
+            Error :(
             {% endif %}
             <br><br>
             </div>
         <div class="info-holder">
             <ul>
             {% if data %}
-                {% for i in results %}
-                <li><a class = 'result' href='https://www.study.eu/search?utf8=%E2%9C%93&page=1&sort=recommended&search={{ search }}&degreelevel=bachelor&countries={{ countries }}&tuition_eea_min=0&tuition_eea_max=40000&currency=EUR&tuition_term=annual&tuition_region=eea&duration_months_min=0&duration_months_max=72'>{{ i }}</a></li>
+                {% for i in data %}
+                <li>{{ i }}</li>
                 <br>
                 {% endfor %}
             </ul>

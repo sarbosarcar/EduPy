@@ -77,6 +77,7 @@ p.none {
     background: #fff;
     color: darkslateblue;
 }
+
 .btn-sub {
     background: #fff;
     color: darkslateblue;
@@ -87,8 +88,15 @@ p.none {
     border-radius: 50px;
     font-weight: bold;
 }
+
 .btn-sub:hover {
     background: transparent;
     color: #fff;
 }
+select, option {
+    width: 30vw;
+}
 
+.btn-sub {
+    padding: 1rem;
+}

@@ -18,57 +18,32 @@
         <div class="container">
             <div class="head">Choose a major<br>that you'll love!</div><br><br>
             <form action="/recommend_results" class="choose" method='POST'>
-                <p class="none">I would probably study...</p>
-                <select id="inputStudy" class="form-control" name="inputStudy" required>
-                    <option value="noneopt" selected disabled>Choose a topic</option>
-                    <option value="sci">The Origin of the Universe</option>
-                    <option value="psy">Complexities of the Human Mind</option>
-                    <option value="math">The Size of Infinities</option>
-                    <option value="comp">Creating a Video Game</option>
-                    <option value="hist">The Fall of the Incas</option>
-                    <option value="geo">Africa: The Land of Wonders</option>
-                    <option value="eco">Essentials of a Business</option>
+                <p class="none">You would probably...</p>
+                <select id="inputIE" class="form-control" name="inputIE" required>
+                    <option value="noneopt" selected disabled>Choose an option</option>
+                    <option value="i">Spend time relaxing on your own alone after a hectic day</option>
+                    <option value="e">Go to a lively party to meet your friends</option>
                 </select>
                 <br><br>
-                <p class="none">I would probably...</p>
-                <select id="inputProf" class="form-control" name="inputProf" required>
-                    <option value="noneopt" selected disabled>Choose a description</option>
-                    <option value="psy">Sit in a chamber</option>
-                    <option value="sci">Experiment and discover</option>
-                    <option value="math">Find out solutions to problems</option>
-                    <option value="eco">Predict the future of global markets</option>
-                    <option value="hist">Read old books</option>
-                    <option value="geo">Explore the world!</option>
-                    <option value="comp">Ideate on a screen</option>
+                <p class="none">You would generally...</p>
+                <select id="inputNS" class="form-control" name="inputNS" required>
+                    <option value="noneopt" selected disabled>Choose an option</option>
+                    <option value="n">Read a book and create your own interpretation adding in your personal views</option>
+                    <option value="s">Read a book and adhere to the meaning conveyed by the author</option>
                 </select>
                 <br><br>
-                <p class="none">I would probably read...</p>
-                <select id="inputBook" class="form-control" name="inputBook" required>
-                    <option value="noneopt" selected disabled>Choose a book/journal</option>
-                    <option value="comp math">Wired</option>
-                    <option value="sci geo hist">National Geographic</option>
-                    <option value="eco">Forbes</option>
-                    <option value="psy">Additude</option>
+                <p class="none">You often choose to...</p>
+                <select id="inputTF" class="form-control" name="inputTF" required>
+                    <option value="noneopt" selected disabled>Choose an option</option>
+                    <option value="t">Go with logical and rational decisions</option>
+                    <option value="f">Go with emotionally sound decisions</option>
                 </select>
                 <br><br>
-                <p class="none">I would probably have an impact...</p>
-                <select id="inputGoal" class="form-control" name="inputGoal" required>
+                <p class="none">You are best defined as one...</p>
+                <select id="inputJP" class="form-control" name="inputJP" required>
                     <option value="noneopt" selected disabled>Choose a goal</option>
-                    <option value="comp math sci">on the world using latest developments & solutions</option>
-                    <option value="geo hist">on my society by exploring more of the social base</option>
-                    <option value="eco">on my company by promoting growth and development</option>
-                    <option value="psy">on my peers by exploring more of human persona</option>
-                </select>
-                <br><br>
-                <p class="none">I would probably study in...</p>
-                <select id="inputCountry" class="form-control" name="inputCountry" required>
-                    <option value="noneopt" selected disabled>Choose a location</option>
-                    <option value="fr">France</option>
-                    <option value="de">Germany</option>
-                    <option value="uk">United Kingdom</option>
-                    <option value="ie">Ireland</option>
-                    <option value="es">Spain</option>
-                    <option value="it">Italy</option>                    
+                    <option value="j">Who prefers to tread a planned idealistic path</option>
+                    <option value="p">Who is open to change and new experiences</option>
                 </select>
                 <br><br>
                 <button type="submit" class="btn-sub">Fetch my Prospects!</button>
